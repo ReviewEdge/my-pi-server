@@ -1,6 +1,11 @@
 # When you create your own configuration file, make sure it is named "config.py"
 # and is moved into the server directory.
 
+# client_secrets_file.json path:
+# for a defualt linux/raspbian setup, the file path is generally:
+# /home/pi/MyPiServer/server/spotify_controller_repo/sample/client_secrets_file.json
+client_secrets_file_path = "XXXXX"
+
 # run track info:
 run_log_google_sheet_id = "XXXXX"
 
