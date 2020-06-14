@@ -1,6 +1,7 @@
 INSTRUCTIONS FOR THE FULL PI SERVER SETUP, WITH INSTALLATION OF ALL APPS:
 
 NOTES:
+*IN LINUX, YOU MAY HAVE TO NAVIGATE (cd) TO THE DIRECTORY CONTAINING A SCRIPT TO BE ABLE TO RUN IT PROPERLY
 *In gsheets_tool.py, you may have to change the path of the client_secrets_file.json to /home/pi/MyPiServer/server/spotify_controller_repo/sample/client_secrets_file.json or wherever the file is located (the full path)
 
 -git clone https://github.com/ReviewEdge/my-pi-server MyPiServer
