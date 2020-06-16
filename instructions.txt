@@ -34,6 +34,8 @@ NOTES:
 
 -create a config file in the project folder.
  You can paste in all of the example_config files, and enter the needed information.
+ *NOTE: The first time track skipper is used, you may run into a permissions error.  To solve this, you may
+   have to reboot the server (the Raspberry Pi).
 
 spotify_tool:
 pip3 install spotipy
