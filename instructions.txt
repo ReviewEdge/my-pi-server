@@ -34,8 +34,6 @@ NOTES:
 
 -create a config file in the project folder.
  You can paste in all of the example_config files, and enter the needed information.
- *NOTE: The first time track skipper is used, you may run into a permissions error.  To solve this, you may
-   have to reboot the server (the Raspberry Pi).
 
 spotify_tool:
 pip3 install spotipy
@@ -61,8 +59,11 @@ pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth
 	Go through the authorization process, authorize the app with the account that the google sheets were created with (that you set up in config.py).
 	After successful authorization, a "token.pickle" file will be created, and will save the authorization for the future.
 
-*Sometimes a "refresh" error occurs with the google API authentication. So far, the best way I have found to adress this is to delete the token.pickle
+*Sometimes a "refresh" error occurs with the google API authentication. So far, the best way I have found to address this is to delete the token.pickle
 file, and redo the authorization process described above.
+
+*NOTE: The first time track skipper is used, you may run into a permissions error.  To solve this, you may
+       have to reboot the server (the Raspberry Pi).
 
 
 
